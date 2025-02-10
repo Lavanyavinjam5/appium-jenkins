@@ -49,7 +49,7 @@ public class CalculatorApp {
         // Assert the result
         String resultText = resultView.getText();
         System.out.println(resultText);
-        //assertEquals("Result: 8.0", resultText);
+        assertEquals("Result: 8.0", resultText);
     }
  
     @After
